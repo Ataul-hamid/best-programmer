@@ -1,0 +1,33 @@
+.data-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-image: url('../Data/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+   
+    
+  
+}
+.programmer-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+  
+    
+    margin-right: 5px;
+    margin-left: 5;
+    padding: 60px;
+    
+   
+}
+.programmer-container img{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 25%;
+    height: 25%;
+}
+.icon{
+    margin: 10px;
+    font-size: 20px;
+}
